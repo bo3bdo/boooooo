@@ -60,13 +60,13 @@ class PostController extends Controller
     {
         $tags = Tag::all();
 
-        return view('Post.tags', compact('tags'));
+        return view('post.tags', compact('tags'));
     }
 
     public function tag($tag)
     {
         $posts = Post::withAnyTags($tag)->simplePaginate(6);
 
-        return view('Post.tag', compact('posts', 'tag'));
+        return view('post.tag', compact('posts', 'tag'));
     }
 }

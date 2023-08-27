@@ -21,7 +21,7 @@
                         <li class="flex items-center space-x-2">
                             <img
                                     alt="avatar"
-                                    src="{{ url($site->image) }}"
+                                    src="{{ Storage::url($site->image) }}"
                                     class="rounded-full w-10 h-10">
                             <dl class="whitespace-nowrap text-sm font-medium leading-5">
                                 <dt class="sr-only">Name</dt>
