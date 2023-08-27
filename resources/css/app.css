@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("animate.css/animate.min.css");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+pre[class*="shiki"] {
+    position: relative;
+    margin: 5px 0;
+    padding: 1.75rem 0 1.75rem 1rem;
+}
+
+pre > .button-copy-code {
+    @apply rounded;
+    @apply flex items-center justify-center p-2;
+    position: absolute;
+
+}
+
+@screen sm {
+    pre > .button-copy-code {
+        top: 1rem;
+        right: 1rem;
+    }
+}
+pre > .button-copy-code:hover {
+    @apply bg-gray-500 text-amber-50;
+}
+
+
+.copy-docs-icon {
+    @apply fill-amber-950;
+}
+
+.copy-docs-icon:hover {
+    @apply fill-amber-50;
+}
+
+/* width */
+::-webkit-scrollbar {
+    @apply bg-gray-900;
+    @apply w-3;
+    @apply h-1;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    @apply rounded;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-700;
+    @apply rounded;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    @apply bg-gray-900;
+    @apply w-1;
+}
+
+

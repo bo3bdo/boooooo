@@ -1,0 +1,40 @@
+            <article class="flex">
+                <div class="col-span-2 items-center justify-center space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0">
+                    <div class="w-full"><a href="/blog/5-underrated-filament-features"><span
+                                style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
+                                    style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
+                                        style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
+                                        alt="" aria-hidden="true"
+                                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27250%27%20height=%27150%27/%3e"></span><img
+                                    alt="5 Underrated Filament Features"
+                                    src="/_next/image?url=%2Fstatic%2Fimages%2F5filamentfeatures.jpg&amp;w=640&amp;q=75"
+                                    decoding="async" data-nimg="intrinsic" class="rounded-lg"
+                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+                                    srcset="/_next/image?url=%2Fstatic%2Fimages%2F5filamentfeatures.jpg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2F5filamentfeatures.jpg&amp;w=640&amp;q=75 2x"><noscript></noscript></span></a>
+                    </div>
+                    <div class="ml-5 auto-cols-max space-y-5 xl:col-span-3">
+                        <div class="space-y-6">
+                            <div><h2 class="text-2xl font-bold leading-8 tracking-tight"><a
+                                        class="text-gray-900 dark:text-gray-100"
+                                        href="/blog/5-underrated-filament-features">5 Underrated Filament Features</a>
+                                </h2>
+                                <div class="flex flex-wrap"><a
+                                        class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                                        href="/tags/filament">Filament</a><a
+                                        class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                                        href="/tags/laravel">laravel</a><a
+                                        class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                                        href="/tags/php">php</a></div>
+                            </div>
+                            <div class="prose max-w-none text-gray-500 dark:text-gray-400">People who have spent any
+                                amount of time in my Twitch stream know that I really, REALLY love one particular
+                                Laravel package Filament.
+                            </div>
+                        </div>
+                        <div class="text-base font-medium leading-6"><a
+                                class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                                aria-label="Read &quot;5 Underrated Filament Features&quot;"
+                                href="/blog/5-underrated-filament-features">Read more →</a></div>
+                    </div>
+                </div>
+            </article>
