@@ -12,9 +12,9 @@ class PostController extends Controller
     {
 
         return view('dashboard', [
-            'posts' => Post::where('status', 1)->
-            latest()->simplePaginate(5),
-        ]
+                'posts' => Post::where('status', 1)->
+                latest()->simplePaginate(5),
+            ]
         );
     }
 
@@ -32,7 +32,7 @@ class PostController extends Controller
         //       get  previous record
         $previous = Post::where('id', '<', $post->id)->orderBy('id', 'desc')->first();
 
-        return view('Post.show', [
+        return view('post.show', [
             'post' => $post,
             'previous' => $previous,
         ]);
