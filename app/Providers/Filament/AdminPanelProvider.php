@@ -33,7 +33,7 @@ class AdminPanelProvider extends PanelProvider
             ->path('admin')
             ->login()
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => Color::Yellow,
             ])
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
@@ -65,13 +65,13 @@ class AdminPanelProvider extends PanelProvider
             ->userMenuItems([
                 MenuItem::make()
                     ->label('Settings')
-                    ->url(fn (): string => AbotmesResource::getUrl())
+                    ->url(fn(): string => AbotmesResource::getUrl())
                     ->icon('heroicon-o-cog-6-tooth'),
                 // ...
             ])
             ->navigationItems([
                 NavigationItem::make('Home Page')
-                    ->url(fn () => route('dashboard'), shouldOpenInNewTab: true)
+                    ->url(fn() => route('dashboard'), shouldOpenInNewTab: true)
                     ->icon('heroicon-o-link')
                     ->sort(3),
             ]);
