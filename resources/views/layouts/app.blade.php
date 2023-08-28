@@ -25,7 +25,7 @@
             display: none;
         }
 
-        p > a {
+        li > a {
             color: #eab305 !important;
         }
 
