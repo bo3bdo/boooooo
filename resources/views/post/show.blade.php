@@ -75,6 +75,14 @@
         {{--        post--}}
         <div class="grow w-3/4">
             <div class="prose max-w-none dark:text-gray-300 pb-8 dark:prose-dark">
+                <link rel="stylesheet"
+                      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll;</script>
                 <x-markdown>
                     {{ $post->body }}
                 </x-markdown>
