@@ -25,7 +25,7 @@
     <!-- and it's easy to individually load additional languages -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/go.min.js"></script>
 
-    <script>hljs.highlightAll();</script>
+    <script>hljs.highlightAuto;</script>
     <style>
         [x-cloak] {
             display: none;
