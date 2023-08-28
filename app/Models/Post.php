@@ -13,9 +13,5 @@ class Post extends Model implements HasMedia
     use HasTags;
 
     protected $guarded = [];
-
-    public function user()
-    {
-        return $this->belongsTo(User::class);
-    }
+    
 }
