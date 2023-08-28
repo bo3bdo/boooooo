@@ -13,5 +13,5 @@ class Post extends Model implements HasMedia
     use HasTags;
 
     protected $guarded = [];
-    
+
 }

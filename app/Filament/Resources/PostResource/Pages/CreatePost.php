@@ -13,4 +13,11 @@ class CreatePost extends CreateRecord
     {
         return $this->getResource()::getUrl('index');
     }
+
+//    add user_id to the form
+    public function beforeCreate()
+    {
+        $this->recordData['user_id'] = auth()->user()->id;
+    }
+
 }
