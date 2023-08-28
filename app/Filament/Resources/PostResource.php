@@ -8,6 +8,7 @@ use Filament\Forms;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Grid;
 use Filament\Forms\Components\MarkdownEditor;
+use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieTagsInput;
 use Filament\Forms\Components\TextInput;
@@ -54,7 +55,7 @@ class PostResource extends Resource
                         Forms\Components\TextInput::make('postinfo')
                             ->required()
                             ->maxLength(255),
-                        MarkdownEditor::make('body')
+                        RichEditor::make('body')
                             ->toolbarButtons([
                                 'attachFiles',
                                 'blockquote',
