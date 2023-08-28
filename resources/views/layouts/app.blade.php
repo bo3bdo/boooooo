@@ -25,11 +25,11 @@
             display: none;
         }
 
-        a {
+        p > a {
             color: #eab305 !important;
         }
 
-        strong {
+        p > strong {
             color: #eab305 !important;
         }
     </style>
