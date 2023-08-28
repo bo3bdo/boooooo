@@ -5,7 +5,7 @@
             <img
                     loading="lazy"
                     class="rounded-lg h-full w-100 object-fill object-center max-w-[15rem] max-h-[15rem]"
-                    src="{{ Storage::url($post->post_image ?? url('placeholder.png')) }}">
+                    src="{{ Storage::url($post->post_image ?? 'https://bo3bdo.com/placeholder.png') }}">
         </a>
     </div>
     {{--    post--}}
