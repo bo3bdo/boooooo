@@ -13,6 +13,6 @@ class CreatePost extends CreateRecord
     {
         return $this->getResource()::getUrl('index');
     }
-    
+
 
 }

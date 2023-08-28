@@ -8,6 +8,7 @@ use Filament\Forms;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Grid;
 use Filament\Forms\Components\MarkdownEditor;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieTagsInput;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
@@ -39,6 +40,8 @@ class PostResource extends Resource
             ->schema([
                 Grid::make(1)
                     ->schema([
+                        Select::make('user_id')
+                            ->relationship(name: 'user', titleAttribute: 'name'),
                         SpatieTagsInput::make('tags')
                             ->required(),
                         TextInput::make('title')
