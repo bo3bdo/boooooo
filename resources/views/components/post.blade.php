@@ -5,7 +5,7 @@
             <img
                     loading="lazy"
                     class="rounded-lg h-full w-100 object-fill object-center max-w-[15rem] max-h-[15rem]"
-                    src="{{ Storage::url($post->post_image ?? url('images/placeholder.png')) }}">
+                    src="{{ Storage::url($post->post_image ?? Storage::url('images/placeholder.png')) }}">
         </a>
     </div>
     {{--    post--}}
