@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'bo3bdo') }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -23,6 +23,10 @@
     <style>
         [x-cloak] {
             display: none;
+        }
+
+        a {
+            color: #eab305 !important;
         }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,8 +50,6 @@
         h1, h2, h3, h4, h5, h6 {
             color: #eab305 !important;
         }
-
-
     </style>
 </head>
 <body
