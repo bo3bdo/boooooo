@@ -75,9 +75,9 @@
         {{--        post--}}
         <div class="grow w-3/4">
             <div class="prose max-w-none dark:text-gray-300 pb-8 dark:prose-dark">
-
-                {!! $post->body !!}
-
+                <x-markdown>
+                    {!! $post->body !!}
+                </x-markdown>
             </div>
             {{--            copyrht--}}
             <div class=" border-b border-t border-gray-300 dark:border-gray-700">
