@@ -20,15 +20,9 @@ pre > .button-copy-code {
     @apply rounded;
     @apply flex items-center justify-center p-2;
     position: absolute;
-
 }
 
-@screen sm {
-    pre > .button-copy-code {
-        top: 1rem;
-        right: 1rem;
-    }
-}
+
 pre > .button-copy-code:hover {
     @apply bg-gray-500 text-amber-50;
 }
