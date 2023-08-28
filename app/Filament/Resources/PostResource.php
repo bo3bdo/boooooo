@@ -88,7 +88,7 @@ class PostResource extends Resource
             ->columns([
                 ImageColumn::make('post_image')
                     ->square()
-                    ->defaultImageUrl(url('/images/placeholder.png')),
+                    ->defaultImageUrl(url('placeholder.png')),
                 Tables\Columns\IconColumn::make('status')
                     ->boolean(),
                 Tables\Columns\TextColumn::make('title')
