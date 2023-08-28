@@ -19,7 +19,7 @@ pre[class*="shiki"] {
 pre > .button-copy-code {
     @apply rounded;
     @apply flex items-center justify-center p-2;
-    position: absolute;
+    float: right;
 }
 
 
