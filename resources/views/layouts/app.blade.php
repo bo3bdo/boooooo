@@ -36,7 +36,7 @@
         }
 
         blockquote > p {
-            color: #eab305;
+            color: #eab305 !important;
         }
 
         p > strong {
@@ -44,7 +44,7 @@
         }
 
         h1 {
-            color: #eab305;
+            color: #eab305 !important;
         }
 
 
