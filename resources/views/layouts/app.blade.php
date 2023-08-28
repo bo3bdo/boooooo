@@ -36,15 +36,15 @@
         }
 
         blockquote > p {
-            color: red;
+            color: #eab305;
         }
 
         p > strong {
-            color: darkred !important;
+            color: #eab305 !important;
         }
 
         h1 {
-            color: #7f8c8d;
+            color: #eab305;
         }
 
 
